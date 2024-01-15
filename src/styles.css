@@ -1,0 +1,67 @@
+body {
+  background-color: rgb(249, 247, 254);
+}
+.weather-app-body {
+  background-color: white;
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 60px;
+  border-radius: 15px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+}
+headers {
+  margin-left: 24px;
+}
+.input-box {
+  margin: 0 auto;
+  margin-left: 24px;
+  margin-top: 24px;
+  padding: 16px 330px 16px 4px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(249, 247, 254);
+  font-size: 14px;
+}
+.submit-button {
+  padding: 16px 37px;
+  background-color: rgb(136, 93, 241);
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+section {
+  margin-left: 24px;
+}
+h1 {
+  font-size: 50px;
+  margin-top: 60px;
+  margin-bottom: 3px;
+}
+
+.weather-details strong {
+  color: #ea6b6b;
+}
+.temperature-display {
+  padding-right: 20px;
+}
+.weather-icon {
+  font-size: 60px;
+  padding-top: 25px;
+}
+.temperature-degree {
+  font-size: 100px;
+}
+.weather-unit {
+  padding-top: 20px;
+}
+footer {
+  margin-left: 24px;
+  padding: 40px;
+}
+a {
+  color: rgb(136, 93, 241);
+}
+.temperature-display {
+  display: flex;
+}

@@ -4,22 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Meteo-app</title>
+    <link rel="stylesheet" href="src/styles.css" />
   </head>
   <body>
     <div class="weather-app-body">
       <header>
-        <span> <input type="text" class="input-box" /></span>
+        <span>
+          <input
+            type="text"
+            class="input-box"
+            required
+            placeholder="Enter a city"
+        /></span>
         <span> <input type="submit" class="submit-button" /> </span>
       </header>
       <section>
         <h1><strong>Paris</strong></h1>
         <div class="weather-details">
-          Friday 1:33,
-          <br />clear sky<br />Humidity <strong>78%</strong>, <br />Wind:<strong
-            >5.66km/h</strong
-          >
+          Friday 1:33, clear sky<br />Humidity <strong>78%</strong>,
+          Wind:<strong>5.66km/h</strong>
         </div>
-        <div class="temperature-dipslay">
+        <div class="temperature-display">
           <div class="weather-icon">🌦</div>
           <div class="temperature-degree"><strong>-1</strong></div>
           <div class="weather-unit">°C</div>
