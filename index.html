@@ -9,14 +9,21 @@
   <body>
     <div class="weather-app-body">
       <header>
-        <span>
-          <input
-            type="text"
-            class="input-box"
-            required
-            placeholder="Enter a city"
-        /></span>
-        <span> <input type="submit" class="submit-button" /> </span>
+        <form class="search-id" id="search-id">
+          <div id="search-form">
+            <span>
+              <input
+                type="text"
+                class="input-box"
+                id="input-box"
+                required
+                placeholder="Enter a city"
+            /></span>
+            <span>
+              <input type="submit" class="submit-button" id="submit-button" />
+            </span>
+          </div>
+        </form>
       </header>
       <section>
         <h1><strong>Paris</strong></h1>
@@ -41,4 +48,5 @@
       </footer>
     </div>
   </body>
+  <script src="src/index.js"></script>
 </html>
