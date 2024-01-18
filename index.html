@@ -3,37 +3,39 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Meteo-app</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/styles.css" />
+    <title>Meteo-app</title>
   </head>
   <body>
     <div class="weather-app-body">
       <header>
-        <form class="search-id" id="search-id">
-          <div id="search-form">
-            <span>
-              <input
-                type="text"
-                class="input-box"
-                id="input-box"
-                required
-                placeholder="Enter a city"
-            /></span>
-            <span>
-              <input type="submit" class="submit-button" id="submit-button" />
-            </span>
-          </div>
+        <form class="search-form" id="search-form">
+          <input
+            type="text"
+            class="input-box"
+            id="input-box"
+            required
+            placeholder="Enter a city"
+          />
+
+          <input type="submit" class="submit-button" id="submit-button" />
         </form>
       </header>
       <section>
-        <h1><strong>Paris</strong></h1>
-        <div class="weather-details">
-          Friday 1:33, clear sky<br />Humidity <strong>78%</strong>,
-          Wind:<strong>5.66km/h</strong>
+        <div>
+          <h1 class="city" id="city"></h1>
+          <p class="weather-details">
+            <span id="city-time"></span>, <span id="description"></span> <br />
+            Humidity: <strong id="humidity"></strong>, Wind:<strong
+              id="wind"
+            ></strong>
+          </p>
         </div>
         <div class="temperature-display">
-          <div class="weather-icon">🌦</div>
-          <div class="temperature-degree"><strong>-1</strong></div>
+          <div class="weather-icon" id="weather-icon"></div>
+          <div class="temperature-degree" id="temperature-degree"></div>
           <div class="weather-unit">°C</div>
         </div>
       </section>

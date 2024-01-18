@@ -37,15 +37,13 @@ section {
   display: flex;
   justify-content: space-between;
 }
-h1 {
+.city {
   font-size: 50px;
   position: relative;
   bottom: 12px;
 }
 .weather-details {
   position: relative;
-  top: 100px;
-  right: 182px;
 }
 .weather-details strong {
   color: #ea6b6b;
@@ -58,10 +56,11 @@ h1 {
 }
 .weather-icon {
   font-size: 60px;
-  padding-top: 25px;
+  padding-top: 8px;
 }
 .temperature-degree {
   font-size: 100px;
+  font-weight: bolder;
 }
 .weather-unit {
   padding-top: 20px;
